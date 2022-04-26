@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="" />
@@ -22,12 +22,110 @@
 
   <body>
     <!-- Navbar -->
+    <nav>
+      <h1>Namrata Sinha</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contacts" class="nav-link">Contacts</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
 
     <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_1.svg"
+        alt="namrata-sinha"
+        loading="lazy"
+        class="hero-image"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I am a self-taught and constantly learning aspiring front end
+          devloper. I love to travel and ocassionaly blog about that.I would
+          love to work on challenging projects. Coming from a non-tech
+          background, I have put myself out of my comfort zone to become a front
+          end deverloper. I'm always excited to learn new technologies in order
+          to solve the right problems.
+        </p>
+      </div>
+    </section>
 
     <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        After completing MBA, I started my career as a Management trainee. I
+        worked in a different company.My role was mostly developing and building
+        business. Generating new clients.I worked 4 years as business developer.
+      </p>
+      <p>
+        After that, I wanted to enhance my career and pursue digital marketing
+        course from Digital Vidya for 6 months. Then I started my career as a
+        digtal marketer with a company called cubicost. But I wanted to do
+        something for me. So, I left job and started working as a freelancer. I
+        started writing my blog, worked as a ghost writer, wrote few articles
+        and managed different social media accounts of my clients.
+      </p>
+      <p>
+        I then developed interest in coding. So, I thought why not come out of
+        my comfort zone and starts learning coding. I opted few course on udemy
+        and started learning coding. Meanwhile, I was also working on my blogs
+        and writing for clients.
+      </p>
+    </section>
 
     <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2>My Top Skills</h2>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
 
     <!-- Projects section -->
 
@@ -38,7 +136,7 @@
     <!-- Footer section -->
 
     <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
+    <script src="app.js"></script>
 
     <!-- Ion icons scripts -->
     <script type="module" src=""></script>
